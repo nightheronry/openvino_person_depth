@@ -10,7 +10,7 @@ At first, download OpenVINO pretained models from [GoogleDrive](https://drive.go
 Then putting them under folder "models".
 
 >**!!Note!!**
->
+> https://github.com/isl-org/MiDaS/issues/37
 > _The depth output in the app is inverted and provided up to unknown scale and shift, i.e. only inversely relative depth is available._  
 > _In each frame, existing a linear equation like "P = D * scale + shift" to project the values of depth maps "D" to the inverse physical absolute measurements "P" according to putting a known scale ruler in the view._
 >
